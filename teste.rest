@@ -1,0 +1,27 @@
+### Buscar todos os professores
+GET http://localhost:3000/api/v1/professores
+
+### Buscar professor pelo ID
+GET http://localhost:3000/api/v1/professores/03142934-b6a4-4576-b3a4-ea4166899570
+
+### Inserir um novo professor
+POST http://localhost:3000/api/v1/professores
+Content-Type: application/json
+
+{
+  "nome": "Matehus",
+  "materia": "Desenvolvimento web"
+}
+
+### Atualizar um professor
+PUT http://localhost:3000/api/v1/professores/147787de-641f-47f1-a948-6b0e02c877f5
+Content-Type: application/json
+
+{
+    "nome": "Roberto",
+    "materia": "Gestão de empresas"
+}
+
+### Remover um professor
+DELETE  http://localhost:3000/api/v1/professores/147787de-641f-47f1-a948-6b0e02c877f5
+Content-Type: application/json

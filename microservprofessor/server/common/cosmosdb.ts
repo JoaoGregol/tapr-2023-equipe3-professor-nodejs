@@ -6,4 +6,4 @@ const cosmosClient = new CosmosClient({
     aadCredentials: new DefaultAzureCredential()
 });
 
-export default cosmosClient.database(process.env.COSMOSDBURL as string)
+export default cosmosClient.database(process.env.COSMOSDBDB as string);

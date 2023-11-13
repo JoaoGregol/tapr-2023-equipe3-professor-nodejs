@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: microservprofessor
+  title: microserviceprofessor
   description: My cool TypeScript app
   version: 1.0.0
 servers:
@@ -13,6 +13,27 @@ tags:
 paths:
   /professores:
     get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    post:
+      responses:
+        200:
+          description: Return all
+          content: {}
+  /professores/{id}:
+    get:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    put:
+      responses:
+        200:
+          description: Return all
+          content: {}
+    delete:
       responses:
         200:
           description: Return all
