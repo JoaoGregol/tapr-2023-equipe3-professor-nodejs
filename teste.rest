@@ -1,27 +1,27 @@
-### Buscar todos os professores
+### Buscar todos os professores com o GET
 GET http://localhost:3000/api/v1/professores
 
-### Buscar professor pelo ID
+### Buscar professor pelo ID (getById)
 GET http://localhost:3000/api/v1/professores/cd595ef4-ebfc-4d5a-aed7-1598d8f4ec73
 
-### Inserir um novo professor
+### Inserir um novo professor (Post)
 POST http://localhost:3000/api/v1/professores
 Content-Type: application/json
 
 {
-  "nome": "Matheus",
-  "materia": "Desenvolvimento web"
+  "nome": "Roberto",
+  "materia": "Teoria da web"
 }
 
-### Atualizar um professor
-PUT http://localhost:3000/api/v1/professores/d0b33523-4ae8-4dda-aa1d-450e25a3d72a"
+### Atualizar um professor (Update)
+PUT http://localhost:3000/api/v1/professores/cd595ef4-ebfc-4d5a-aed7-1598d8f4ec73
 Content-Type: application/json
 
 {
-    "nome": "Roberto",
-    "materia": "Gestão de empresas"
+    "nome": "Leandro",
+    "materia": "Gestão de armazenamento"
 }
 
-### Remover um professor
-DELETE  http://localhost:3000/api/v1/professores/147787de-641f-47f1-a948-6b0e02c877f5
+### Remover um professor (Delete)
+DELETE  http://localhost:3000/api/v1/professores/cd595ef4-ebfc-4d5a-aed7-1598d8f4ec73
 Content-Type: application/json

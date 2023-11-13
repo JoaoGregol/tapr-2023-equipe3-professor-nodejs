@@ -66,7 +66,7 @@ export class ProfessorService {
             = await this.container.items.query(querySpec).fetchAll();
             
         for (const professor of listaProfessores) {
-            await this.container.item(professor.id, professor.id).delete();
+            await this.container.item(professor.id, professor.materia).delete();
         }
 
         return Promise.resolve(id);
