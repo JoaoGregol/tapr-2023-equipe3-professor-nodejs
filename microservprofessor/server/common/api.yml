@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: microserviceprofessor
+  title: microservprofessor
   description: My cool TypeScript app
   version: 1.0.0
 servers:

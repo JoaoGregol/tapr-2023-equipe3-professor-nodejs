@@ -2,19 +2,19 @@
 GET http://localhost:3000/api/v1/professores
 
 ### Buscar professor pelo ID
-GET http://localhost:3000/api/v1/professores/03142934-b6a4-4576-b3a4-ea4166899570
+GET http://localhost:3000/api/v1/professores/cd595ef4-ebfc-4d5a-aed7-1598d8f4ec73
 
 ### Inserir um novo professor
 POST http://localhost:3000/api/v1/professores
 Content-Type: application/json
 
 {
-  "nome": "Matehus",
+  "nome": "Matheus",
   "materia": "Desenvolvimento web"
 }
 
 ### Atualizar um professor
-PUT http://localhost:3000/api/v1/professores/147787de-641f-47f1-a948-6b0e02c877f5
+PUT http://localhost:3000/api/v1/professores/d0b33523-4ae8-4dda-aa1d-450e25a3d72a"
 Content-Type: application/json
 
 {
