@@ -1,0 +1,52 @@
+Starting Dapr with id tapr-2023-equipe3-professor-javascript. HTTP Port: 34941. gRPC Port: 44731
+Updating metadata for cliPID: 69157
+time="2023-12-04T01:26:37.186727815Z" level=info msg="Starting Dapr Runtime -- version 1.12.2 -- commit f954254ed520409602024ea6d507d0405afa1f07" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.18683781Z" level=info msg="Log level set to: info" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.187136438Z" level=warning msg="mTLS is disabled. Skipping certificate request and tls validation" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.security type=log ver=1.12.2
+time="2023-12-04T01:26:37.18899943Z" level=info msg="metrics server started on :33045/" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.189167182Z" level=info msg="standalone mode configured" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.18920922Z" level=info msg="app id: tapr-2023-equipe3-professor-javascript" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.189295712Z" level=info msg="Dapr trace sampler initialized: DaprTraceSampler(P=1.000000)" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.189874971Z" level=info msg="local service entry announced: tapr-2023-equipe3-professor-javascript -> 172.16.5.4:39391" app_id=tapr-2023-equipe3-professor-javascript component="mdns (nameResolution/v1)" instance=codespaces-d5d1e1 scope=dapr.contrib type=log ver=1.12.2
+time="2023-12-04T01:26:37.189945994Z" level=info msg="Initialized name resolution to mdns" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.190023017Z" level=info msg="Loading components…" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:37.190857132Z" level=info msg="Waiting for all outstanding components to be processed…" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.192168093Z" level=info msg="Component loaded: servicebus-pubsub (pubsub.azure.servicebus.topics/v1)" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.192369669Z" level=info msg="All outstanding components processed" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.192448766Z" level=info msg="Loading endpoints…" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.192755608Z" level=info msg="Waiting for all outstanding http endpoints to be processed…" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.192826791Z" level=info msg="All outstanding http endpoints processed" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.192967062Z" level=info msg="gRPC server listening on TCP address: :44731" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-04T01:26:40.193037504Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-04T01:26:40.193084331Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-04T01:26:40.19325014Z" level=info msg="Registering workflow engine for gRPC endpoint: [::]:44731" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.grpc.api type=log ver=1.12.2
+time="2023-12-04T01:26:40.193344115Z" level=info msg="API gRPC server is running on port 44731" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.193509093Z" level=info msg="Enabled max body size HTTP middleware with size 4 MB" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-04T01:26:40.193570147Z" level=info msg="Enabled tracing HTTP middleware" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-04T01:26:40.193606134Z" level=info msg="Enabled metrics HTTP middleware" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-04T01:26:40.194045092Z" level=info msg="HTTP server listening on TCP address: :34941" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.http type=log ver=1.12.2
+time="2023-12-04T01:26:40.194121985Z" level=info msg="HTTP server is running on port 34941" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.19417808Z" level=info msg="The request body size parameter is: 4" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.194273708Z" level=info msg="gRPC server listening on TCP address: :39391" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-04T01:26:40.194342026Z" level=info msg="Enabled gRPC tracing middleware" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-04T01:26:40.194380257Z" level=info msg="Enabled gRPC metrics middleware" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.grpc.internal type=log ver=1.12.2
+time="2023-12-04T01:26:40.194457982Z" level=info msg="Internal gRPC server is running on port 39391" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:26:40.194560743Z" level=info msg="application protocol: http. waiting on port 3000.  This will block until the app is listening on that port." app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+Updating metadata for app command: npm run dev
+Updating metadata for appPID: 69177
+You're up and running! Dapr logs will appear here.
+
+time="2023-12-04T01:28:50.955599506Z" level=info msg="application discovered on port 3000" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:28:51.070416814Z" level=info msg="Application configuration loaded" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:28:51.070535656Z" level=info msg="actors: state store is not configured - this is okay for clients but services with hosted actors will fail to initialize!" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:28:51.070719078Z" level=info msg="Actor runtime started. Actor idle timeout: 1h0m0s. Actor scan interval: 30s" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.actor type=log ver=1.12.2
+time="2023-12-04T01:28:51.071851888Z" level=info msg="Configuring workflow engine with actors backend" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.wfengine type=log ver=1.12.2
+time="2023-12-04T01:28:51.071908825Z" level=info msg="Registering component for dapr workflow engine..." app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:28:51.071943269Z" level=info msg="Initializing Dapr workflow component" app_id=tapr-2023-equipe3-professor-javascript component="dapr (workflow.dapr/v1)" instance=codespaces-d5d1e1 scope=dapr.contrib type=log ver=1.12.2
+time="2023-12-04T01:28:51.078633099Z" level=info msg="dapr initialized. Status: Running. Init Elapsed 133889ms" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime type=log ver=1.12.2
+time="2023-12-04T01:28:51.090929943Z" level=info msg="Placement tables updated, version: 0" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.runtime.actors.placement type=log ver=1.12.2
+
+termination signal received: shutting down
+time="2023-12-04T01:32:01.471090754Z" level=info msg="Received signal 'interrupt'; beginning shutdown" app_id=tapr-2023-equipe3-professor-javascript instance=codespaces-d5d1e1 scope=dapr.signals type=log ver=1.12.2
+Exited Dapr successfully
+Exited App successfully

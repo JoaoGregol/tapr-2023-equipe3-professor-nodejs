@@ -21,6 +21,10 @@ export class ProfessorController {
     delete(req: Request, res: Response): void {
         ProfessorService.delete(req.params['id']).then((r) => res.json(r));
     }
+
+    updateEvent(req:Request, res:Response): void{
+        ProfessorService.updateEvent(req.body.data).then((r) => res.json(r)).catch(() => res.status(404).end());
+    }
 }
 
 export default new ProfessorController();

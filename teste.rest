@@ -9,17 +9,17 @@ POST http://localhost:3000/api/v1/professores
 Content-Type: application/json
 
 {
-  "nome": "Roberto",
-  "materia": "Teoria da web"
+  "nome": "Carlos",
+  "materia": "Naturologia"
 }
 
 ### Atualizar um professor (Update)
-PUT http://localhost:3000/api/v1/professores/cd595ef4-ebfc-4d5a-aed7-1598d8f4ec73
+PUT http://localhost:3000/api/v1/professores/e995910c-5880-4fd0-9028-4cf0b3bdfe96
 Content-Type: application/json
 
 {
-    "nome": "Leandro",
-    "materia": "Gestão de armazenamento"
+    "nome": "Alejandro",
+    "materia": "Gestão de estoque"
 }
 
 ### Remover um professor (Delete)

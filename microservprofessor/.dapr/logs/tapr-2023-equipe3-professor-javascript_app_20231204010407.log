@@ -1,0 +1,38 @@
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript == > microservprofessor@1.0.0 dev
+== APP - tapr-2023-equipe3-professor-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == Error: Cannot find module 'server/common/daprclient'
+== APP - tapr-2023-equipe3-professor-javascript == Require stack:
+== APP - tapr-2023-equipe3-professor-javascript == - /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/api/services/professor.service.ts
+== APP - tapr-2023-equipe3-professor-javascript == - /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/api/controllers/professores/professorcontroller.ts
+== APP - tapr-2023-equipe3-professor-javascript == - /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/api/controllers/professores/router.ts
+== APP - tapr-2023-equipe3-professor-javascript == - /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/routes.ts
+== APP - tapr-2023-equipe3-professor-javascript == - /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/index.ts
+== APP - tapr-2023-equipe3-professor-javascript ==     at Function.Module._resolveFilename (node:internal/modules/cjs/loader:1048:15)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Function.Module._resolveFilename.sharedData.moduleResolveFilenameHook.installedValue [as _resolveFilename] (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/@cspotcode/source-map-support/source-map-support.js:811:30)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:901:27)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19)
+== APP - tapr-2023-equipe3-professor-javascript ==     at require (node:internal/modules/helpers:130:18)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.<anonymous> (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/api/services/professor.service.ts:5:1)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module._compile (node:internal/modules/cjs/loader:1241:14)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1618:23)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1621:12) {
+== APP - tapr-2023-equipe3-professor-javascript ==   code: 'MODULE_NOT_FOUND',
+== APP - tapr-2023-equipe3-professor-javascript ==   requireStack: [
+== APP - tapr-2023-equipe3-professor-javascript ==     '/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/api/services/professor.service.ts',
+== APP - tapr-2023-equipe3-professor-javascript ==     '/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/api/controllers/professores/professorcontroller.ts',
+== APP - tapr-2023-equipe3-professor-javascript ==     '/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/api/controllers/professores/router.ts',
+== APP - tapr-2023-equipe3-professor-javascript ==     '/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/routes.ts',
+== APP - tapr-2023-equipe3-professor-javascript ==     '/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/server/index.ts'
+== APP - tapr-2023-equipe3-professor-javascript ==   ]
+== APP - tapr-2023-equipe3-professor-javascript == }
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down

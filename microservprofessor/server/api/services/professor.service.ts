@@ -1,6 +1,10 @@
 import { Container, SqlQuerySpec } from "@azure/cosmos";
 import cosmosDb from "../../common/cosmosdb";
+import daprClient from "../../common/daprclient";
 import { Professor } from "../entities/professor";
+
+
+
 
 export class ProfessorService {
     private container: Container =
@@ -30,7 +34,7 @@ export class ProfessorService {
     async saveNew(professor: Professor): Promise<Professor> {
         professor.id = "";
         await this.container.items.create(professor);
-
+        await this.publishEvent(professor);
         return Promise.resolve(professor);
     }
 
@@ -44,13 +48,17 @@ export class ProfessorService {
 
         const { resources: listaProfessores }
             = await this.container.items.query(querySpec).fetchAll();
-
+            
         const professorAntigo = listaProfessores[0];
+
+        if(professorAntigo == undefined){
+            return Promise.reject();
+        }
 
         professorAntigo.nome = professor.nome;
         professorAntigo.materia = professor.materia;
         await this.container.items.upsert(professorAntigo)
-
+        await this.publishEvent(professorAntigo);
         return Promise.resolve(professorAntigo);
     }
 
@@ -70,7 +78,21 @@ export class ProfessorService {
         }
 
         return Promise.resolve(id);
+
+
     }
+        async publishEvent(professor:Professor): Promise<Professor>{
+        daprClient.pubsub.publish(process.env.APPCOMPONENTSERVICE as string,
+                                  process.env.APPCOMPONENTTOPICCARRO as string,
+                                  professor);
+        return Promise.resolve(professor);
+
+    }
+    async updateEvent(professor:Professor): Promise<Professor>{
+        await this.container.items.upsert(professor);
+        return Promise.resolve(professor);
+    }
+
 }
 
 export default new ProfessorService();

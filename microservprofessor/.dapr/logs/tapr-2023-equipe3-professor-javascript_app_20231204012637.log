@@ -1,0 +1,113 @@
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript == > microservprofessor@1.0.0 dev
+== APP - tapr-2023-equipe3-professor-javascript == > nodemon server/index.ts | pino-pretty
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] 2.0.22
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] to restart at any time, enter `rs`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] watching path(s): server/**/* .env
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] watching extensions: ts,js,json,yaml,yml
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe3-professor-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe3-professor-javascript ==            ^
+== APP - tapr-2023-equipe3-professor-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe3-professor-javascript == server/api/services/professor.service.ts(3,24): error TS2307: Cannot find module '../../common/daprclients' or its corresponding type declarations.
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript ==     at createTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe3-professor-javascript ==     at getOutput (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe3-professor-javascript ==   diagnosticCodes: [ 2307 ]
+== APP - tapr-2023-equipe3-professor-javascript == }
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe3-professor-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe3-professor-javascript ==            ^
+== APP - tapr-2023-equipe3-professor-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe3-professor-javascript == server/api/services/professor.service.ts(3,24): error TS2307: Cannot find module '../common/daprclients' or its corresponding type declarations.
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript ==     at createTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe3-professor-javascript ==     at getOutput (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe3-professor-javascript ==   diagnosticCodes: [ 2307 ]
+== APP - tapr-2023-equipe3-professor-javascript == }
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe3-professor-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe3-professor-javascript ==            ^
+== APP - tapr-2023-equipe3-professor-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe3-professor-javascript == server/api/services/professor.service.ts(3,24): error TS2307: Cannot find module '../../common/daprclients' or its corresponding type declarations.
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript ==     at createTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe3-professor-javascript ==     at getOutput (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe3-professor-javascript ==   diagnosticCodes: [ 2307 ]
+== APP - tapr-2023-equipe3-professor-javascript == }
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == /workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859
+== APP - tapr-2023-equipe3-professor-javascript ==     return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+== APP - tapr-2023-equipe3-professor-javascript ==            ^
+== APP - tapr-2023-equipe3-professor-javascript == TSError: ⨯ Unable to compile TypeScript:
+== APP - tapr-2023-equipe3-professor-javascript == server/api/services/professor.service.ts(3,24): error TS2307: Cannot find module '../' or its corresponding type declarations.
+== APP - tapr-2023-equipe3-professor-javascript == 
+== APP - tapr-2023-equipe3-professor-javascript ==     at createTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:859:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at reportTSError (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:863:19)
+== APP - tapr-2023-equipe3-professor-javascript ==     at getOutput (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1077:36)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1433:41)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.m._compile (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1617:30)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module._extensions..js (node:internal/modules/cjs/loader:1295:10)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Object.require.extensions.<computed> [as .ts] (/workspaces/tapr-2023-equipe3-professor-nodejs/microservprofessor/node_modules/ts-node/src/index.ts:1621:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.load (node:internal/modules/cjs/loader:1091:32)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Function.Module._load (node:internal/modules/cjs/loader:938:12)
+== APP - tapr-2023-equipe3-professor-javascript ==     at Module.require (node:internal/modules/cjs/loader:1115:19) {
+== APP - tapr-2023-equipe3-professor-javascript ==   diagnosticCodes: [ 2307 ]
+== APP - tapr-2023-equipe3-professor-javascript == }
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] app crashed - waiting for file changes before starting...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] restarting due to changes...
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] starting `ts-node server/index.ts`
+== APP - tapr-2023-equipe3-professor-javascript == [1701653330941] INFO (tapr-2023-equipe3-professor-javascript/71091 on codespaces-d5d1e1): up and running in development @: codespaces-d5d1e1 on port: 3000}
+== APP - tapr-2023-equipe3-professor-javascript == 2023-12-04T01:29:18.491Z INFO [HTTPClient, HTTPClient] Sidecar Started
+== APP - tapr-2023-equipe3-professor-javascript == [UnhandledPromiseRejection: This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). The promise rejected with the reason "undefined".] {
+== APP - tapr-2023-equipe3-professor-javascript ==   code: 'ERR_UNHANDLED_REJECTION'
+== APP - tapr-2023-equipe3-professor-javascript == }
+== APP - tapr-2023-equipe3-professor-javascript == [nodemon] app crashed - waiting for file changes before starting...
+
+termination signal received: shutting down
